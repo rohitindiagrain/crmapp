@@ -76,7 +76,7 @@ class StartPage extends StatelessWidget {
                       ),
 
                       // Space between logo and title
-                      SizedBox(height: isTablet ? 20 : 14),
+                      SizedBox(height: isTablet ? 100 : 60),
 
                       // ==================================================
                       // WELCOME TITLE
@@ -92,7 +92,7 @@ class StartPage extends StatelessWidget {
                         ),
                       ),
 
-                      const SizedBox(height: 8),
+                      const SizedBox(height: 30),
 
                       // ==================================================
                       // DESCRIPTION
@@ -118,7 +118,7 @@ class StartPage extends StatelessWidget {
                       ),
 
                       // Space before button
-                      SizedBox(height: isTablet ? 32 : 24),
+                      SizedBox(height: isTablet ? 400 : 200),
 
                       // ==================================================
                       // GET STARTED BUTTON
@@ -166,7 +166,7 @@ class StartPage extends StatelessWidget {
                                 ),
                               ),
 
-                              const SizedBox(width: 12),
+                              const SizedBox(width: 40),
 
                               const Icon(Icons.arrow_forward_rounded, size: 21),
                             ],
@@ -175,7 +175,7 @@ class StartPage extends StatelessWidget {
                       ),
 
                       // Small space between button and footer
-                      SizedBox(height: isTablet ? 18 : 12),
+                      SizedBox(height: isTablet ? 100 : 60),
 
                       // ==================================================
                       // FOOTER
@@ -206,7 +206,7 @@ class StartPage extends StatelessWidget {
 
                                 color: const Color(0xFF8A918C),
 
-                                fontWeight: FontWeight.w500,
+                                fontWeight: FontWeight.bold,
 
                                 letterSpacing: 0.1,
                               ),
