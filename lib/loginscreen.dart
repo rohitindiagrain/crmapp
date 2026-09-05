@@ -34,7 +34,7 @@ class _LoginScreenState extends State<LoginScreen> {
             physics: const BouncingScrollPhysics(),
 
             child: ConstrainedBox(
-              constraints: const BoxConstraints(maxWidth: 382),
+              constraints: const BoxConstraints(maxWidth: 500),
 
               child: Padding(
                 padding: const EdgeInsets.symmetric(
@@ -49,8 +49,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     // LOGO
                     // =====================================================
                     SizedBox(
-                      height: 200,
-
+                      height: 300,
                       child: Image.asset(
                         'assets/images/indiagrain_logo.jpeg',
                         fit: BoxFit.contain,
