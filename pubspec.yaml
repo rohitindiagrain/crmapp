@@ -91,7 +91,7 @@ flutter:
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/images/ic_launcher.png"
-  # Optional: For Android 8.0+ adaptive icons
-  # adaptive_icon_background: "#FFFFFF"
+  image_path: "assets/images/logoindiagrain.png"
+  Optional: For Android 8.0+ adaptive icons
+  adaptive_icon_background: "#FFFFFF"
   # adaptive_icon_foreground: "assets/icon/app_logo_foreground.png"
